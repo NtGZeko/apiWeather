@@ -11,15 +11,10 @@
     <header>
       <h1>Weather</h1>
     </header>
-    <section id="search">
-      <label for="weather-search">Meteo d'une ville:</label>
-      <input
-        type="search"
-        id="weather-search"
-        name="q"
-        value="Meteo d'une ville"
-      />
-    </section>
+    <form id="search">
+      <input type="text" class="form-control" id="inputCity" />
+      <button type="submit">Recherche</button>
+    </form>
     <section id="info">
       <h2 id="city"></h2>
       <article>
@@ -33,3 +28,7 @@
   </body>
 </html>
 <script src="app.js"></script>
+<script
+  src="https://kit.fontawesome.com/f831de03a8.js"
+  crossorigin="anonymous"
+></script>
